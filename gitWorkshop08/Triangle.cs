@@ -5,8 +5,9 @@ using System.Text;
 namespace gitWorkshop08 {
     class Triangle{
         public static void CalculateArea() {
-            Console.WriteLine("Enter breadth and height: ");
+            Console.WriteLine("Enter breadth");
             int breadth = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Enter height");
             int height = Int32.Parse(Console.ReadLine());
 
             if (breadth > 0 && height > 0) {
