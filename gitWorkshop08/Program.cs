@@ -6,7 +6,8 @@ namespace gitWorkshop08
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Triangle.CalculateArea();
+            Console.ReadLine();
         }
     }
 }
