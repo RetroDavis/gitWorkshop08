@@ -10,12 +10,12 @@ namespace gitWorkshop08
 
 
 
-        public static void robusArea(int pHight, int qLength)
+        public void robusArea(int pHight, int qLength)
         {
 
             if (pHight > 0 && qLength > 0)
             {
-                Console.WriteLine((pHight * qLength) / 2);
+                Console.WriteLine("Rombus Area = " + (pHight * qLength) / 2);
             }
             else
             {
