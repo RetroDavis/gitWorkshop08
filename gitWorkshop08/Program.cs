@@ -10,13 +10,8 @@ namespace gitWorkshop08
 
             Rombus r = new Rombus();
 
-           
-
-
             r.robusArea(5,6);
-
             Console.ReadLine();
-
         }
     }
 }
